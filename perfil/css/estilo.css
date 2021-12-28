@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #F2F2F2;
+    --cor2: #949FA6;
+    --cor3: #666D73;
+    --cor4: #363E40;
+    --cor5: #232426;
+    --cor6: #FBF37C;
+
+    --fontTitulo: 'Comfortaa', cursive;
+    --fontDestaque: 'Baloo Tammudu 2', cursive;
+    --fontPadrao: 'Montserrat', sans-serif;
+
+    --larguraMaxima: 900px;
+    --larguraMinima: 320px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fontPadrao);
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+/*CABEÇALHO*/
+header{
+    margin: auto;
+    max-width: var(--larguraMaxima);
+    min-width: var(--larguraMinima);
+    background-color: var(--cor5);
+    box-shadow: 0px 0px 5px var(--cor3);
+}
+
+header h1{
+    color: var(--cor2);
+    font-family: var(--fontTitulo);
+    font-size: 3em;
+    padding:30px 0px;
+    text-align: center;
+    transition: 3s;
+}
+
+header h1:hover{
+    color: var(--cor6);
+    transition: 1s;
+}
+
+header p{
+    text-align: center;
+    color: var(--cor3);
+    margin: -20px 0px 30px 0px;
+    transition: 2s;
+    padding: 0px 30px;
+
+}
+
+header p:hover{
+    color: var(--cor0);
+    transition: 1s;
+}
+
+/*MENU*/
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+header ul{
+    margin: auto;
+    max-width: 320px;
+    font-family: var(--fontTitulo);
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+header ul li a{
+    color: var(--cor2);
+    padding: 10px 8px;
+    text-decoration: none;
+    transition: .8s;
+    font-weight: 400;
+}
+
+header ul li a:hover{
+    color: var(--cor5);
+    background-color: var(--cor6);
+    transition: .5s;
+}
+
+
+#fotoPerfil{
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid var(--cor2);
+    background-image: url('../imagens/perfil1B.jpg');
+    background-size: 110px;
+    transition: 3s;
+}
+
+#fotoPerfil:hover{
+    background-image: url('../imagens/perfil1A.jpg');
+    border: 5px solid var(--cor6);
+    box-shadow: 0px 0px 15px var(--cor6);
+    transition: 1s;
+}
+
+/*CORPO*/
+main{
+    margin: auto;
+    max-width: var(--larguraMaxima);
+    min-width: var(--larguraMinima);
+    background-color: var(--cor0);
+    box-shadow: 0px 0px 5px var(--cor3);
+}
+
+
+/*RODAPE*/
+footer{
+    margin: auto;
+    max-width: var(--larguraMaxima);
+    min-width: var(--larguraMinima);
+    background-color: var(--cor5);
+    box-shadow: 0px 0px 5px var(--cor3);
+    color: var(--cor1);
+    font-size: .8em;
+}
+
+footer a{
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor6);
+}
+
+.socialRodape{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 0px 0px 0px 10px;
+    display: inline;
+}
