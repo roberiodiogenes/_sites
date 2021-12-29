@@ -30,10 +30,15 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    color: var(--cor3);
 }
 
 body{
     background-color: var(--cor1);
+}
+
+strong{
+    color: var(--cor5);
 }
 
 header{
@@ -46,22 +51,15 @@ header{
 
 header > h1{
     height: 400px;
-    background-image: url('../imagens/wayTopo1.jpg');
+    background-image: url('../imagens/topo-1B.jpg');
     background-size: cover;
     color: var(--cor0);
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
     font-size: 3em;
-    text-align: center;
-}
-
-header > h2{
-    position: relative;
-    color: var(--cor0);
-    font-family: var(--fontManuscrita);
-    font-size: 2em;
-    text-align: center;
-    margin-top: -220px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header img{
@@ -72,10 +70,9 @@ header img{
     border-radius: 50%;
     border: 10px solid var(--cor1);
     position: relative;
-    margin-top: 85px;
+    margin-top: 20px;
     background-color: rgba(5, 6, 70, 0.616);
     box-shadow: 0px 0px 5px var(--cor2);
-    transition: 3s;
 }
 
 header img:hover{
@@ -134,13 +131,14 @@ header img:hover{
 
 /*  CORPO  */
 main{
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--cor6);
     margin: auto;
     max-width: var(--larguraMaxima);
     min-width: var(--larguraMinima);
     box-shadow: 0px 0px 5px var(--cor2);
     background-color: var(--cor0);
-    height: 300px;
 }
 
 /* RODAPE */
@@ -156,13 +154,13 @@ footer{
     font-size: .8em;
 }
 
-footer a{
+.menuRodape a{
     color: var(--cor1);
     text-decoration: none;
     font-weight: 300;
 }
 
-footer a:hover{
+.menuRodape a:hover{
     color: var(--cor4);
     font-weight: 600;
 }

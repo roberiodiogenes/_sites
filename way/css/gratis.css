@@ -1,0 +1,101 @@
+.cursosGratis{
+    max-width: 400px;
+    min-width: 270px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.cursosGratis h2{
+    color: var(--cor6);
+    font-family: var(--fontTitulo);
+    padding: 0px 0px 20px 0px;
+}
+
+.cursosGratis h4{
+    padding: 30px 0px 0px 0px;
+    font-family: var(--fontTitulo);
+    color: var(--cor6);
+}
+
+.cursosGratis ul{
+    list-style-type: '\2714\00a0\00a0';
+    padding-left: 30px;
+}
+
+.cursosGratis ul li:hover{
+    color: var(--cor6);
+    font-weight: 700;
+}
+
+/* PROFESSOR */
+
+.professor{
+    max-width: 560px;
+    min-width: 300px;
+    padding: 30px 30px 30px 30px;
+}
+
+.perfilProfessor{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+#lkdAdriana{
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    margin: 0px 0px 0px 54%;
+    top: 130px;
+    border: 5px solid var(--cor0);
+}
+
+.professor h2{
+    color: var(--cor6);
+    font-family: var(--fontTitulo);
+    padding: 0px 0px 20px 0px;
+}
+
+.professor h3{
+    color: var(--cor3);
+    font-family: var(--fontDestaque);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.professor p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 30px;
+}
+
+.informacoes{
+    max-width: 400px;
+    min-width: 270px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.informacoes h2{
+    color: var(--cor6);
+    font-family: var(--fontTitulo);
+    padding: 0px 0px 20px 0px;  
+}
+
+.informacoes ul{
+    list-style-type: none;
+}
+
+.informacoes ul li:hover{
+    color: var(--cor6);
+    font-weight: 700;
+}
+
+.informacoes ul li li{
+    padding-left: 30px;
+}
+
+iframe{
+    width: 350px;
+
+}
