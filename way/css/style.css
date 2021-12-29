@@ -14,7 +14,7 @@
     --cor2: #9FA3A6;
     --cor3: #565759;
     --cor4: #F2D479;
-    --cor5: #F2B705;
+    --cor5: #f08800;
     --cor6: #3d50be;
 
     --fontTitulo: 'Cabin', sans-serif;
@@ -130,7 +130,7 @@ header img:hover{
 }
 
 /*  CORPO  */
-main{
+.conteiner{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--cor6);
@@ -166,4 +166,135 @@ footer{
 }
 
 /* CONTEÚDO DAS PÁGINAS */
+/*
+H1: Título da página
+H2: Destaques
+H3: Titulo dos Conteúdos
+H4:
+*/
 
+.conteiner h2{
+    color: var(--cor6);
+    font-family: var(--fontDestaque);
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.normal{
+    max-width: 480px;
+    min-width: 270px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.normal p{
+    text-indent: 30px;
+}
+
+.destaque{
+    color: var(--cor5);
+    font-family: var(--fontTitulo);
+}
+
+.normal ul{
+    list-style-type: none;
+}
+
+.normal ul li{
+    color: var(--cor6);
+    padding: 20px 0px 10px 0px;
+    font-weight: 700;
+}
+
+.normal ul li li{
+    color: var(--cor5);
+    padding: 0px 0px 0px 30px;
+    font-weight: 400;
+}
+
+.normal iframe{
+    width: 100%;
+    height: 100%;
+}
+
+ul#lista li{
+    font-weight: 600;
+    padding: 5px 0px 5px 30px;
+
+}
+
+.linkInterno{
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+.linkInterno:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.comum{
+    max-width: 420px;
+    min-width: 270px;
+    height: 100%;
+    padding: 30px;
+    text-align: justify;
+    background-color: var(--cor1);
+    margin: 30px 30px 50px 30px;
+    border-radius: 10px;
+}
+
+.comum h3{
+    font-family: var(--fontTitulo);
+    color: var(--cor3);
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#destaque{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    background-color: var(--cor6);
+    color: var(--cor5);
+}
+
+#destaque h3{
+    color: var(--cor0);
+    padding: 0px 0px 30px 0px;
+}
+
+#destaque p{
+    color: var(--cor0);
+}
+
+#destaque a{
+    text-decoration: none;
+    font-family: var(--fontTitulo);
+    font-style: italic;
+    color: var(--cor5);
+}
+
+/* IMAGENS */
+#banerCurriculum{
+    padding: 30px;
+    max-width: 480px;
+    min-width: 270px;
+}
+
+#banerCurriculuns{
+    display: block;
+    padding: 30px;
+    max-width: 480px;
+    min-width: 270px;
+    height: 100%;
+}
+
+.fotoPerfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
