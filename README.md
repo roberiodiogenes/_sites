@@ -11,3 +11,4 @@ ROBÉRIO DIOGENES
 03 - <a href="https://roberiodiogenes.github.io/_sites/phfrutas/index.html" target="_blank">PH Frutas</a><br>
 04 - <a href="https://roberiodiogenes.github.io/_sites/discipulado/index.html" target="_blank">Discipulado</a><br>
 05 - <a href="https://roberiodiogenes.github.io/_sites/cordel/index.html" target="_blank">Cordel Moderno</a><br>
+06 - <a href="https://roberiodiogenes.github.io/_sites/alunos/index.html" target="_blank">Alunos Curso de Informática</a><br>
