@@ -1,0 +1,150 @@
+
+:root{
+    --cor1: #939598;
+    --cor2: #76777B;
+    --cor3: #54565B;
+    --cor4: #FAF8EB;
+    --corDestaque: #00992e;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+header{
+    background-color:var(--cor3);
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0px 0px 6px var(--cor3);
+}
+
+header > h1{
+    background-color: var(--cor3);
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+    color: var(--cor1);
+    font-size: 3em;  
+    transition: 3s;
+}
+header >h1:hover{
+    color: var(--corDestaque);
+    transition: 3s;
+
+}
+
+header > p{
+    color: var(--cor4);
+    text-align: center;
+    background-color: var(--cor3);
+    padding-bottom: 20px;
+    margin-top:-80px ;
+}
+
+nav{
+    background-color: var(--cor3);
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--cor4);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+ul li a:hover{
+    background-color: var(--corDestaque);
+    color: var(--cor3);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+header > div{
+    width: 120px;
+    height: 120px;
+    background-color: var(--corDestaque);
+    margin: auto;
+    background-image: url('../imagens/perfil-pb.jpg');
+    background-size: 120px;
+    border-radius: 50%;
+    border: 6px solid var(--cor4);
+    transition: 2s;
+}
+
+header > div:hover{
+    background-image: url('../imagens/perfil-color.jpg');
+    background-size: 120px;
+    border: 6px solid var(--corDestaque);
+    transition:2s;
+    box-shadow:0px 0px 55px var(--corDestaque);
+}
+
+
+footer{
+    background-color: var(--cor3);
+    height: 30PX;
+    padding: 20px;
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+footer a{
+    color: var(--cor4);
+    text-decoration: none;   
+}
+
+main{
+    display: flex;
+    background-color: white;
+    max-width: 900px;
+    margin:auto;
+}
+footer a:hover{
+    text-decoration:underline;
+    font-style: italic;
+    color: var(--corDestaque)
+}
+
+    main article{
+        padding: 10px;
+        text-align: justify;
+    }
+    #foto1{
+        width: 200px;
+        padding: 10px;
+    }
+
+    .destaque{
+        color: aqua;
+    }
+
+    h2{
+        color: blue;
+        min-width: 240px;
+    }
+        
+
+
+
+
+
+
+    
+    

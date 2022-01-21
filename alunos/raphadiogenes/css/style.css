@@ -1,9 +1,9 @@
 :root{
-    --cor1:#C79DEB;
-    --cor2:#B6A4F5;
-    --cor3:#A0A5DE;
-    --cor4:#8AB3F5;
-    --cordestaque:#DFF5F7;
+    --cor:#BB2020;
+    --cor2:#06111C;
+    --cor3:#06111C;
+    --cor4:#FFEB4D;
+    --cordestaque:#FAF8EB;
 }
 
 *{
@@ -18,7 +18,7 @@ body{
 }
 
 header{
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     max-width: 900px;
     margin: auto;
     box-shadow: 0px 0px 5px var(--cor3);
@@ -33,11 +33,17 @@ header > h1{
     font-size: 3em;
 }
 
+header > h1:hover{
+    color: var(--cor4);
+    transition: 2s;
+}
+
 header > p{
     color: var(--cor1);
     text-align: center;
-    background-color: white ;
+    background-color: #black ;
     padding-bottom: 20px;
+    margin-top: -80px;
 }
 
 nav{
@@ -52,7 +58,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: white;
+    color: yellow;
     padding: 10px 20px 10px 20px;
 }
 
@@ -62,4 +68,71 @@ ul li a:hover{
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
     transition: 0,7;
+}
+
+header > div{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin: auto;
+    background-image: url('../imagens/perfil-2.jpg') ;
+    background-size: 120px;
+    border-radius: 50%;
+    border: 6px solid var(--cordestaque);
+    transition: 1s;
+}
+
+header > div:hover{
+    background-image:url('../imagens/perfil-1.jpg');
+    background-size: 120px;
+    border: 6px solid var(--cor4);
+    transition: 2s;
+    box-shadow: 0px 0px 55px var(--cor4);
+}
+
+main{
+    display: flex;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+}
+
+main article{
+    padding: 20px;
+    text-align: justify;
+}
+footer{
+    background-color: var(--cor3);
+    height: 30px;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+
+footer  a{
+    color: var(--cordestaque);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: var(--cor4);
+}
+
+#foto1{
+    width: 200px;
+    padding: 10px;
+}
+.destaque{
+    color:#BB2020;
+}
+/*Curriculum*/
+h2{
+    Color:var(--cor1);
+    min-width: 240px;
+}
+strong{
+    color: midnightblue;
 }

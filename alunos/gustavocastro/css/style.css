@@ -1,0 +1,122 @@
+
+:root{
+    --cor1: #fff;
+    --cor2: rgb(221, 221, 221);
+    --cor3: #333;
+    --cor4: rgb(255, 196, 0);
+    --cor5: rgb(67, 51, 160);
+}
+
+*{
+    margin: 0px; 
+    padding: 0px;
+} 
+
+body{
+    font-family: ;
+    background-color: var(--cor2);
+}
+
+header{
+    background-color: var(--cor3);
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0px 0px 6px var(--cor3);
+}
+
+header > div{
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    background-image: url('../imagens/perfil1B.jpg');
+    background-size: 120px;
+    border-radius: 50%;
+    transition: 1s;
+    margin: auto;
+    margin-top: -60px;
+    border: 6px solid var(--cor1)
+}
+
+header > div:hover{
+    background-image: url('../imagens/perfil1A.jpg');
+    background-size: 120px;
+    transition: 2s;
+    border: 6px solid var(--cor4);
+    box-shadow: 0px 0px 15px var(--cor4);
+}
+
+header > h1{
+    background-color: var(--cor3);
+    height: 200px;
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 100px;
+    font-family: cursive;
+
+}
+    /* menu */
+
+    nav{
+
+        background-color: var(--cor3);
+    }
+
+
+    ul li{
+
+        list-style: none;
+        display: inline-block;
+        padding: 20px;
+        
+    }
+
+    ul li a{
+
+        color: var(--cor4);
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+ul li a:hover{
+
+    background-color:var(--cor4);
+    padding: 20px;
+    color: var( --cor3);
+    transition: 0.3s;
+}
+
+main{
+
+    max-width: 900px;
+    background-color: var(--cor1);
+    margin: auto;
+
+}
+
+
+footer{
+
+background-color: var(--cor3);
+height: 50px;
+text-align: center;
+color: var(--cor1);
+}
+
+footer a{
+
+color: var(--cor1);
+text-decoration: none;
+
+}
+
+footer a:hover{
+color: var(--cor4);
+text-decoration: underline;
+
+}
+
+
+
+
+
+
