@@ -105,3 +105,50 @@ main{
     margin: auto;
 
 }
+
+#fotoredesocial{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+/* curriculum */
+
+article{
+    padding: 20px;
+
+}
+
+article > h2{
+    color:var(--cor4);
+    border-bottom: 3px solid var(--cor4) ;
+    width: 120px;
+    transition: 1s;
+    padding-top: 20px;
+}
+
+article > h2:hover{
+    width: 100%;
+    transition: 1s;
+    color: var(--cor3);
+    border-bottom: 2px solid violet ;
+}
+
+article > p{
+    padding-top: 10px;
+}
+
+article ol{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+article ol li{
+    padding: 5px;
+}
+
+article ol li:hover{
+    text-decoration: underline;
+    color: red;
+}
+    

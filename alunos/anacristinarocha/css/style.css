@@ -1,8 +1,8 @@
 
 :root{
-    --cor1: #939598;
-    --cor2: #76777B;
-    --cor3: #54565B;
+    --cor1: #92beff;
+    --cor2: #5b73cf;
+    --cor3: #092979;
     --cor4: #FAF8EB;
     --corDestaque: #00992e;
 }
@@ -139,6 +139,39 @@ footer a:hover{
         color: blue;
         min-width: 240px;
     }
+    hr{
+        width: 200px;
+
+        transition:100s;
+        
+    }
+    hr:hover{
+        width:100px;
+
+    }
+
+    /*todo id comeca com # e toda classe comeca com . {ponto}*/
+    #fotinha{
+        width: 300px;
+
+    }
+
+    .linha{
+        width:100px ;
+        border: 2px solid var(--cor3)
+        transition: .5s/*tempo que leva pra ficar maior*/;
+        
+        
+    }
+
+    .linha:hover{
+        width:100%;
+        transition:1s;
+        border-bottom: 2px solid var(--cor2); 
+        color: var(--cor1);
+    }
+
+    
         
 
 

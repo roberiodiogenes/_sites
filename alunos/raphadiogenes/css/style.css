@@ -48,7 +48,12 @@ header > p{
 
 nav{
     background-color: var(--cor2);
+  
+}
 
+#menu{
+    width: ;
+    margin: auto;
 }
 ul li{
     display: inline-block;
@@ -58,12 +63,12 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: yellow;
+    color:var(--cordestaque);
     padding: 10px 20px 10px 20px;
 }
 
 ul li a:hover{
-    background-color: var(--cordestaque);
+    background-color: var(--cor4);
     color: black;
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
@@ -132,7 +137,25 @@ footer a:hover{
 h2{
     Color:var(--cor1);
     min-width: 240px;
+    
+}
+
+.linha{
+    width: 150px;
+    border-bottom;: 1px solid var(--cor3));
+    transition: 2s;
+}
+.linha:hover{
+    width: 100%;
+    border-bottom: 1px solid var(--cor);
+    color: var(--cor);
+    transition: 2s;
+
 }
 strong{
     color: midnightblue;
+}
+
+#red{
+    width: 200px;
 }

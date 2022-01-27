@@ -27,8 +27,8 @@ header{
 header > div{
     width: 120px;
     height: 120px;
-    background-color: yellow;
-    background-image: url('../imagens/perfil-pretoebranco.jpg');
+    background-color: rgb(102, 194, 59);
+    background-image: url('../imagens/perfil-colorido.jpg');
     background-size: 120px;
     border-radius: 50%;
     transition: 1s;
@@ -38,7 +38,7 @@ header > div{
 }
 
 header > div:hover{
-    background-image: url('../imagens/perfil-colorido.jpg');
+    background-image: url('../imagens/perfil-colorido1.jpg');
     background-size: 120px;
     transition: 2s;
     border: 6px solid var(--cor4);
@@ -105,3 +105,8 @@ main{
     margin: auto;
 
 }
+/*
+fotoredesocial
+width:;
+
+*/

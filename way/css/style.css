@@ -299,3 +299,8 @@ ul#lista li{
     display: block;
     margin: auto;
 }
+
+.banes{
+    max-width: 100%;
+    /*min-width: 270px;*/
+}

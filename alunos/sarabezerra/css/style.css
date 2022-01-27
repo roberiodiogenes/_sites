@@ -1,9 +1,9 @@
 :root{
-    --cor1: #DFE7F2;
-    --cor2: #142624;
-    --cor3: #BF9F63;
-    --cor4: #A67A53;
-    --corDestaque: #40221B;
+    --cordefundo: #b7ceee;
+    --corbody: #142624;
+    --corheader: #cfb481;
+    --corfonte: #88613e;
+    --corfontedestaque: #40221B;
 }
 
 *{
@@ -12,42 +12,49 @@
 }
 
 body{
-    background-color: var(--cor1);
+    background-color: var(--cordefundo);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color: var(--cor3);
+    background-color: var(--corheader);
     max-width: 900px;
     margin: auto;
-    box-shadow: 0px 0px 6px var(--cor3);
+    box-shadow: 0px 0px 6px var(--corheader);
 }
 
 header > h1{
-    background-color: var(--cor3);
+    background-color: var(--corheader);
     height: 150px;
     text-align: center;
     padding-top: 100px;
-    color: var(--cor1);
+    color: var(--cordefundo);
     font-size: 3em;
     transition: 3s;
 }
 
 header > h1:hover{
-    color: var(--cor2);
+    color: var(--corbody);
     transition: 1s;
 }
 
 header > p{
-    color: var(--cor4);
+    color: var(--corfonte);
     text-align: center;
-    background-color: var(--cor3);
+    background-color: var(--corheader);
     padding-bottom: 20px;
     margin-top: -80px;
 }
 
 nav{
-    background-color: var(--cor3);
+    background-color: var(--corheader);
+    margin: auto;
+}
+
+#menu{
+    max-width: 500px;
+    display: block;
+    margin: auto;
 }
 
 ul li{
@@ -58,14 +65,14 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: var(--cor4);
+    color: var(--corfonte);
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
 }
 
 ul li a:hover{
-    background-color: var(--corDestaque);
-    color: var(--cor3);
+    background-color: var(--corfontedestaque);
+    color: var(--corheader);
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
     transition: .3s;
@@ -74,55 +81,54 @@ ul li a:hover{
 header > div{
     width: 120px;
     height: 120px;
-    background-color: var(--corDestaque);
+    background-color: var(--corfontedestaque);
     margin: auto;
     background-image: url('../imagens/perfil-2.jpg');
     background-size: 120px;
     border-radius: 50%;
-    border: 6px solid var(--cor4);
+    border: 6px solid var(--corfonte);
     transition: 1s;
 }
 
 header > div:hover{
     background-image: url('../imagens/perfil-1.jpg');
     background-size: 120px;
-    border: 6px solid var(--corDestaque);
+    border: 6px solid var(--corfontedestaque);
     transition: 2s;
-    box-shadow: 0px 0px 15px var(--corDestaque);
+    box-shadow: 0px 0px 15px var(--corfontedestaque);
 }
 
 main{
     display: flex;
-    background-color: var(--cor1);
+    background-color: var(--cordefundo);
     max-width: 900px;
     margin: auto;
 }
 
 main article{
-    background-color: var(--cor2);
+    background-color: var(--corbody);
     padding: 20px;
-    color: var(--cor3);
+    color: var(--corfonte);
     text-align: center;
 }
 
 footer{
-    background-color: var(--cor3);
+    background-color: var(--corheader);
     height: 30px;
     padding: 20px;
     margin: auto;
-    color: var(--cor4);
-    text-align: center;
+    color: var(--corfonte);
 }
 
 footer a{
-    color: var(--cor4);
+    color: var(--corfonte);
     text-decoration: none;
 }
 
 footer a:hover{
     text-decoration: underline;
     font-style: italic;
-    color: var(--corDestaque);
+    color: var(--corfontedestaque);
 }
 
 
@@ -133,17 +139,36 @@ footer a:hover{
 }
 
 .destaque{
-    color: var(--cor1);
+    color: var(--cordefundo);
 }
 
 /*Curriculum*/
 h2{
-    color: var(--cor4);
+    color: var(--corfonte);
     min-width: 240px;
     padding-top: 30px;
+    text-align: start;
 }
 
 strong{
-    color: var(--cor3);
-
+    color: var(--corheader);
 }
+
+/*TODO ID COMEÇA COM # e TODA CLASS COMEÇA COM UM . (PONTO)*/
+
+#fotoredesocial{
+    width: 300px;
+}
+
+.linha{
+    width: 100px;
+    border-bottom: 1px solid var(--cordefundo);
+    transition: 3s;
+}
+
+.linha:hover{
+    width: 100%;
+    transition: 2s;
+    color: rgb(230, 175, 127);
+}
+
