@@ -12,3 +12,4 @@ ROBÉRIO DIOGENES
 04 - <a href="https://roberiodiogenes.github.io/_sites/discipulado/index.html" target="_blank">Discipulado</a><br>
 05 - <a href="https://roberiodiogenes.github.io/_sites/cordel/index.html" target="_blank">Cordel Moderno</a><br>
 06 - <a href="https://roberiodiogenes.github.io/_sites/alunos/index.html" target="_blank">Alunos Curso de Informática</a><br>
+07 - <a href="https://roberiodiogenes.github.io/_sites/7meninas/index.html" target="_blank">7 Meninas</a><br>
